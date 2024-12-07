@@ -1,0 +1,10 @@
+
+void main(){
+var temperature_C= int.parse (stdin.readlineSync()!)
+var temperature_F= ((temperature_C*9/5)+35);
+print(
+    "temperature in F= temperature in degress"
+)
+
+
+}
