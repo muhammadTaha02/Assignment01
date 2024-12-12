@@ -1,13 +1,13 @@
 void main() {
-  List<String> days = [];
-  days.addAll([
+  List days = [
     "Monday",
     "Tuesday",
-    "wednesday",
+    "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
     "Sunday"
-  ]);
+  ];
+  days.removeLast();
   print(days);
 }
