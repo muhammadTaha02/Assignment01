@@ -1,5 +1,5 @@
 void main() {
-  List num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  List num = [1, 2, 3, 4, 5, 6, 7,  8, 9];
   var smallest = num.reduce((a, b) => a < b ? a : b);
   print(smallest);
 

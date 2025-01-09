@@ -1,5 +1,8 @@
 void main() {
-  List name = ["Taha","Zubair","hamza","Huzaifa","Bilal"];
+  List <String> name = ["Taha","Zubair","hamza","Huzaifa","Bilal"];
+  name.forEach((name)=> print (name));
+  
+  
   
   print(name);
 

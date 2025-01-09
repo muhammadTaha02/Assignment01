@@ -1,13 +1,11 @@
 void main() {
-  Map<String, String> info = {
-    "1": "Taha",
-    "2": "hamza",
-    "3": "Bilal",
-    "4": "Rehman",
-    "5": "Ahsan"
+  Map<String, dynamic> Phone = {
+    "Names": "Taha",
+    "Phone number": 090078601,
+    "cells": 03063569592,
+    "code": 12234,
+    "E Mail": "abcd@gmail.com"
   };
-  var myVal = info.keys.where(
-    (key) => key.length == 4,
-  );
-  print(info);
+  var phones = Phone.keys.where((value) => value.length == 4);
+  print("phones=$phones");
 }

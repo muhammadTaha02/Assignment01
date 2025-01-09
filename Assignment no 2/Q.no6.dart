@@ -11,7 +11,7 @@ void main() {
       "Currency": "Dollar",
       "Language": "American English"
     },
-    "Bangladesh": {"Capital": "Dhaka", "Currency": "The Taka", "Language": "Dhaka"}
+    "Bangladesh": {"Capital": "Dhaka", "Currency": "The Taka", "Language": "Bangali"}
   };
 
   var pakistan = World["Pakistan"];
